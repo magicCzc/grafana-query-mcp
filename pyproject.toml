@@ -1,0 +1,39 @@
+# Copyright (c) 2025, Project Grafana Query MCP. All rights reserved.
+
+
+[tool.poetry]
+name = "grafana-query-mcp"
+version = "0.1.0"
+description = "Grafana integration tool with NLP to query conversion and SSE pagination"
+authors = ["Project Maintainers <maintainers@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+fastapi = "^0.115.0"
+uvicorn = {version = "^0.30.0", extras = ["standard"]}
+pydantic = "^2.9.0"
+httpx = "^0.27.0"
+python-json-logger = "^2.0.7"
+prometheus-client = "^0.20.0"
+cryptography = "^43.0.0"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
+black = "^24.10.0"
+ruff = "^0.6.9"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I", "B"]
+ignore = ["E501"]
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
+
