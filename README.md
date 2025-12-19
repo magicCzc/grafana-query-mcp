@@ -47,7 +47,7 @@ Grafana Query MCP 是一个基于 FastAPI 的查询转换与分页服务，面�
 
 1. 克隆项目仓库
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/magicCzc/grafana-query-mcp.git
    cd grafana-query-mcp
    ```
 
@@ -244,6 +244,5 @@ requirements-3.8.txt # 依赖列表
 
 如有问题或建议，请通过以下方式联系：
 
-- 项目 Issues：<repository-issues-url>
-- 维护者：<maintainer-contact>
+- 维护者：Chenzc
 

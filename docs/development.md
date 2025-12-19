@@ -22,7 +22,7 @@
 ### 1. 克隆项目仓库
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/magicCzc/grafana-query-mcp.git
 cd grafana-query-mcp
 ```
 
